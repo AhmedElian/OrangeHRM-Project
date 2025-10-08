@@ -1,65 +1,98 @@
-1. Introduction
+📚 OrangeHRM – Manual Testing Project
+----------------
+🧾 1. Introduction
+
+This document defines the strategy, objectives, resources, and schedule for the Functional Testing of the OrangeHRM Web Application.
+Testing focuses on both HR Admin and Employee (ESS) roles to ensure the system functions as expected and meets all business requirements.
+
+----------------
+🎯 1.1 Objective
+
+This Test Plan outlines the approach, strategy, scope, and resources required to verify the functional correctness of the OrangeHRM web application based on the SRS (Software Requirements Specification).
+The objective is to validate that each module behaves as intended under different user roles — HR Admin and ESS (Employee Self-Service) — covering key features such as:
+
+- 👤 My Info
+
+- 🧑‍💼 Admin
+
+- 🧾 Job
+
+- 🏢 Organization
+
+- 🎓 Qualifications
+
+----------------
+🏗️ 1.2 Background
+
+OrangeHRM is a web-based Human Resource Management System that provides comprehensive HR functionalities.
+This project focuses on functional testing of its core modules, ensuring:
+
+- 🔄 Accurate CRUD operations (Create, Read, Update, Delete)
+
+- 🔐 Secure and restricted data access
+
+- ⚙️ Role-based permissions operate as per the SRS document
+
+- All testing activities are aligned with the latest SRS version provided by the stakeholders.
+
+----------------
+📘 2. Scope
+
+✅ 2.1 In-Scope Modules
+
+- 👤 My Info Module (SRS - 3.1)
+
+- Includes verification of Employee Self-Service (ESS) functionalities:
+
+   - 🔑 Employee Login (SRS - 3.1.1)
+
+   - 🖼️ Photograph (SRS - 3.1.2)
+
+   - 📞 Contact Details (SRS - 3.1.3)
+
+   - 🚨 Emergency Contacts (SRS - 3.1.4)
+
+   - 👨‍👩‍👧 Dependents (SRS - 3.1.5)
+
+   - 🛂 Immigration (SRS - 3.1.6)
    
-This document plans the strategy, objectives, resources and schedule for functional testing for OrangeHRM Website from HR Admin Account and Employee Account to check that the system works as expected.
+   - 💼 Job (SRS - 3.1.7)
 
-1.1 Objective
-
-This test plan outlines the approach, strategy, scope, and resources required to validate the functional correctness of the OrangeHRM web application based on the SRS specifications. The focus is on verifying the behavior of the application under the roles of HR Admin and ESS (Employee Self-Service), covering modules such as My Info, Admin, Job, Organization, and Qualifications.
-
-1.2 Background
-
-OrangeHRM is a web-based Human Resource Management system. This project focuses on the functional testing of core HR modules with a strong emphasis on verifying CRUD operations, secure data access, and compliance with role-based permissions. All testing activities are based on the latest SRS document provided.
-
-2. Scope
+   - 💰 Salary (SRS - 3.1.8)
    
-2.1 In-Scope:
+   - 👥 Report To (SRS - 3.1.9)
 
-2.1.1 My Info module: (SRS - 3.1)
+   - 🎓 Qualifications (SRS - 3.1.10)
 
-2.1.1.1 My Info Module (EES View) & Employee account login (SRS - 3.1.1)
+   - 🪪 Membership (SRS - 3.1.11)
 
-2.1.1.2 Photograph (SRS - 3.1.2)
+   - 🧑‍💼 Admin Module (SRS - 3.2)
 
-2.1.1.3 Contact Details (SRS - 3.1.3)
+- Covers HR Admin functionality and management features:
 
-2.1.1.4 Emergency Contact (SRS - 3.1.4)
-
-2.1.1.5 Dependents (SRS - 3.1.5)
-
-2.1.1.6 Immigration (SRS - 3.1.6)
-
-2.1.1.7 Job (SRS - 3.1.7)
-
-2.1.1.8 Salary (SRS - 3.1.8)
-
-2.1.1.9 Report To (SRS - 3.1.9)
-
-2.1.1.10 Qualifications (SRS - 3.1.10)
-
-2.1.1.11 Membership (SRS - 3.1.11)
-
-2.1.2 Admin module: (SRS - 3.2)
-
-2.1.2.1 HR Admin account login (SRS - 000)
-
-2.1.2.2 User Management (SRS - 3.2.1)
-
-2.1.2.3 Job (Titles, Pay Grades, Employment Status, Job Categories, Work Shifts) (SRS - 3.2.2)
-
-2.1.2.4 Organization (General Information, Locations, Structure) (SRS - 3.2.3)
-
-2.1.2.5 Qualifications (Skills, Education, Licenses, Languages, Memberships) (SRS - 3.2.4)
-
-3. Deliverables
+   - 🔑 HR Admin Login (SRS - 000)
    
-3.1. Test Plan
-    
-3.2. Test Cases
+   - 👥 User Management (SRS - 3.2.1)
 
-3.3. Bug Report
+   - 💼 Job Management (Titles, Pay Grades, Employment Status, Job Categories, Work Shifts) (SRS - 3.2.2)
 
-3.4. RTM (Requirements Traceability Matrix)
+   - 🏢 Organization (General Information, Locations, Structure) (SRS - 3.2.3)
 
-3.5. Test Summary Report
+   - 🎓 Qualifications (Skills, Education, Licenses, Languages, Memberships) (SRS - 3.2.4)
 
-3.6. Presentation Slides
+----------------
+📦 3. Deliverables
+
+- 📄 Deliverable	Description
+
+- 🧾 Test Plan	Defines test objectives, scope, and strategy
+
+- 🧩 Test Cases	Detailed manual test cases for each module
+
+- 🐞 Bug Report	Documented defects with reproduction steps and severity
+
+- 🔗 RTM (Requirements Traceability Matrix)	Maps SRS requirements to corresponding test cases
+
+- 📊 Test Summary Report	Final evaluation of testing activities and outcomes
+
+- 🎤 Presentation Slides	Summary presentation of project deliverables and key findings
